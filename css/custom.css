@@ -1,0 +1,9 @@
+.intro #main_logo{
+    width: 100%;
+}
+.intro #intro-text{
+    font-family: 'Petit Formal Script', cursive;
+    text-align: right;
+    font-size: 2.7em;
+    font-weight: bold;
+}
