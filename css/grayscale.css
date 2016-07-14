@@ -130,7 +130,6 @@ a:focus {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  background-position: top;
 }
 .intro .intro-body {
   display: table-cell;
