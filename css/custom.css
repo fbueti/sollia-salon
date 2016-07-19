@@ -45,3 +45,36 @@
     margin-top: -25px;
 }
 }
+
+#circles{
+    margin: auto;
+    width: 508px;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 50px;
+    border: solid 2px white;
+    float: left;
+    display: inline-block;
+}
+.circle:first-child{
+    margin-left: 20px;
+}
+
+.circle img{
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    height: 60px;
+    margin-top: 16px;
+}
+.circle:hover{
+    cursor: pointer;
+    background-color: white;
+}
+.circle:hover img{
+    filter: none;
+    -webkit-filter: none;
+}
