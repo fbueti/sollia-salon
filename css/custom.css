@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 .intro #mobile_logo{
     display: none;
 }
@@ -12,6 +15,67 @@
     margin-top: -30px;
 }
 
+.icons{
+  margin: auto;
+  text-align: center;
+  width: 190px;
+}
+.icon{
+  width: 35px;
+  float: left;
+  margin: 0px 8px;
+}
+.icon:hover{
+  cursor: pointer;
+  opacity: .8;
+}
+.product_img{
+  width: 200px;
+  height: 200px;
+  z-index: -1;
+  background-size: 200px;
+}
+#color_wow{
+  background-image: url(../img/products/color_wow.jpg);
+}
+#gelux{
+  background-image: url(../img/products/gelux.jpg);
+}
+#malibu{
+  background-image: url(../img/products/malibu.jpg);
+}
+#moroccan_oil{
+  background-image: url(../img/products/moroccan_oil.jpg);
+}
+#sebastian{
+  background-image: url(../img/products/sebastian.jpg);
+}
+#spice{
+  background-image: url(../img/products/spice.jpg);
+}
+.product_title{
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.8em;
+  padding: 3px;
+  display: inline;
+  line-height: 1.6em;
+  margin-top: ;
+}
+.space{
+  height: 65px;
+}
+.product{
+  width: 200px;
+  text-align: center;
+  float: left;
+  margin: 0px 5px;
+}
+.product p{
+  font-size: 1.2em;
+  margin-top: 10px;
+}
 @media (max-width: 990px) {
   .intro #main_logo{
       width: 100%;
@@ -83,4 +147,17 @@
     width: 600px;
     height: 300px;
     border: solid 1px white;
-}      
+}
+
+a, a:hover{
+    color: white;
+}
+
+.hover-arrow{
+    display: none;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+.product:hover .hover-arrow{
+    display: block;
+}
